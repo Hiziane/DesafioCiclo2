@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"  >
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title>Busca Cep </title>
+</head>
+
+<body>
+
+    <div id="inicio">
+        <header>
+            <h1 >ME ACHA!</h1>
+            <h2>Encontre um endereço pelo numero de cep</h2>
+        </header>
+    </div>
+    <div  class="tela flex column center-hv">
+ 
+        <div class="bola flex center-hv"> <span class=" tamanho material-icons">
+            travel_explore </span>
+        </div>
+        
+    </div>
+    <div class="container center-hv">
+        <fieldset>
+            <form method="get" action=".">
+                <label class="txt" for="Cep"><b>Cep</b></label>
+                <input type="text" required class="txt cursor" id="NumeroCep" name="Cep" value=""
+                    autofocus placeholder="Informe o Cep">
+                <label class="txt" for="Rua">Rua</label>
+                <input type="text" class="txt" id="logradouro" name="Rua" value="" readonly>
+                <label class="txt" for="Bairro">Bairro</label>
+                <input type="text" class="txt" id="bairro" name="Bairro" value="" readonly>
+                <label class="txt" for="Cidade">Cidade</label>
+                <input type="text" class="txt" id="localidade" name="Cidade" value="" readonly>
+                <label class="txt"for="Estado">Estado</label>
+                <input type="text" class="txt" id="uf" name="Estado" value="" readonly>
+                <input class="txt botao" type="button" name="Buscar" value="BUSCAR" id="buscarCep">
+                <input class="txt botao" type="reset" name="limpar" value="LIMPAR CAMPOS">
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>

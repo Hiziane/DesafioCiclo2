@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#inicio{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right,#0D47A1,#29B6F6,#B3E5FC);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#centraliza{
+    width: 50%;
+    height: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    margin-left: 100px;
+    
+}
+
+.container { 
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h1{
+    color: white;
+    margin:0;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-hv{
+    justify-content: center;
+    align-items: center;
+}
+
+.bola{
+    width: 80px;
+    height: 80px;
+    background-color:white;
+    border-radius: 100%;
+    color:#fff;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.tamanho{
+    font-size: 48px;
+    color: #29B6F6;
+}
+
+.tela {
+    width: 320px;
+    height: 100px;
+    justify-content: flex-start;
+    margin:3px;
+
+}
+
+.column {
+    flex-direction: column;
+}
+
+fieldset{
+    padding: 2px;
+}
+
+.txt{
+    width: 90%;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.botao{
+    color: white;
+    background: blue; 
+    width: 535px;
+    margin-top: 10px;
+}
+
+.cursor {
+    position: relative;
+}
+
+
